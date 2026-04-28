@@ -1,0 +1,24 @@
+{
+  "name": "feranime-api-service",
+  "version": "1.0.0",
+  "description": "Standalone JSON API service for anime lookup, stream resolution, metadata, and manga reading endpoints.",
+  "private": false,
+  "license": "MIT",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "check": "node -c src/server.js && node -c src/mangakatana.js"
+  },
+  "keywords": [
+    "anime",
+    "manga",
+    "api",
+    "hls",
+    "mp4",
+    "metadata"
+  ]
+}

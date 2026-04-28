@@ -1,0 +1,12 @@
+{
+  "name": "feranime-api-service",
+  "description": "Standalone JSON API service for anime lookup, stream resolution, metadata, and manga reading endpoints.",
+  "keywords": ["node", "anime", "manga", "api", "hls"],
+  "repository": "https://github.com/edfwasd1234/feranime-api-service",
+  "env": {
+    "NODE_ENV": {
+      "description": "Node runtime mode.",
+      "value": "production"
+    }
+  }
+}
