@@ -4,6 +4,7 @@ const animekai = require("./animekai");
 const anizone = require("./anizone");
 const animeheaven = require("./animeheaven");
 const hianime = require("./hianime");
+const anigo = require("./anigo");
 const metadata = require("./metadata");
 const mangakatana = require("./mangakatana");
 
@@ -12,10 +13,11 @@ const VERSION = "1.0.0";
 const resolvers = {
   animeheaven,
   hianime,
+  anigo,
   animekai,
   anizone
 };
-const sources = [animeheaven.SOURCE, hianime.SOURCE, animekai.SOURCE, anizone.SOURCE];
+const sources = [animeheaven.SOURCE, anigo.SOURCE, animekai.SOURCE, anizone.SOURCE];
 
 function sendJson(res, status, body) {
   res.writeHead(status, {
